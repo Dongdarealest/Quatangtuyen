@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Quà Tặng Cuộc Sống</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script
+</head>
+
+<body>
+  <script src="script.js"></script>
+</body>
+<script>
+	swal({
+  title: "Tuyền ngu đúng không",
+  buttons: "Đúng",
+  dangerMode: true,
+})
+.then((willDelete) => {
+  if (willDelete) {
+    swal("Biết ngay mà ", {
+    });
+  } else {
+    swal("ko tin");
+  }
+});  
+</script>
+</html>
